@@ -29,8 +29,8 @@ HER2_Positive <- breast_cancer_clinical_data %>%
 # bc <- data.frame(table(total_TPBC, total_TNBC))
 
 bc <- data.frame(
-  Type = c("TPBC", "TNBC", "ER_Positive", "PR_Positive", "HER2_Positive"),
-  Count = c(total_TPBC, total_TNBC, ER_Positive, PR_Positive, HER2_Positive)
+  Type = c("Triple_Positive", "Triple_Negative", "ER_Positive", "PR_Positive", "HER2_Positive"),
+  Count = c(Triple_Positive, Triple_Negative, ER_Positive, PR_Positive, HER2_Positive)
 )
 
 # Plot the data using ggplot2
