@@ -39,4 +39,4 @@ ggplot(data = bc, aes(x = Type, y = Count, fill = Type)) +
   labs(title = "Hormone Sensitive Status",
        x = "Cancer Type",
        y = "Count") +
-  theme_minimal()
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
